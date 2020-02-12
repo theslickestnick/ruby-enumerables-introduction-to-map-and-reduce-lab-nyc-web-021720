@@ -25,3 +25,14 @@ def map_to_double(source_array)
   end
   result
 end
+
+def map_to_square(source_array)
+  counter = 0
+  result = []
+  while counter < source_array.size do
+    # binding.pry
+    result << (source_array[counter] * source_array[counter])
+    counter += 1
+  end
+  result
+end
