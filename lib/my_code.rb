@@ -50,3 +50,7 @@ def reduce_to_total(source_array, starting_point = 0)
   end
   total
 end
+
+def reduce_to_all_true(source_array)
+  source_array
+end
